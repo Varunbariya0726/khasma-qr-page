@@ -23,26 +23,25 @@ body {
    HEADER
 ========================= */
 
-header {
-    height: 80px;
+header { 
+    height: 90px; 
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
 
-    background: #ffffff;
+    background: #ffffff; 
 
-    position: sticky;
-    top: 0;
-    z-index: 1000;
+    position: sticky; 
+    top: 0; 
+    z-index: 1000; 
 
-    border-bottom: 1px solid #e5e1d8;
+    border-bottom: 1px solid #e5e1d8; 
 }
 
 .logo {
-    max-width: 140px;
-    max-height: 55px;
-
+    max-width: 190px;
+    max-height: 90px;
     object-fit: contain;
 }
 
@@ -253,8 +252,8 @@ header {
     }
 
     .logo {
-        max-width: 120px;
-        max-height: 45px;
+        max-width: 155px;
+        max-height: 65px;
     }
 
     .welcome-section {

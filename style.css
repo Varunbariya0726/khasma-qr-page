@@ -136,7 +136,7 @@ header {
     font-size: 14px;
     letter-spacing: 3px;
     opacity: 0.55;
-
+    color: #f5eee2;
     margin-bottom: 8px;
 }
 
@@ -282,6 +282,8 @@ header {
     .tea-number {
         font-size: 12px;
         letter-spacing: 2px;
+        color: #ffffff;
+    
     }
 
     .tea-content h2 {

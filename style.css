@@ -120,8 +120,7 @@ header {
     justify-content: center;
     align-items: center;
 
-    border-bottom: 8px solid #F5EEE2;
-}
+    }
 .tea-content {
     width: 100%;
     max-width: 560px;
@@ -134,10 +133,10 @@ header {
 }
 
 .tea-number {
-    font-size: 14px;
+    font-size: 20px;
     letter-spacing: 3px;
     opacity: 0.55;
-    color: #f5eee2;
+    color: #000000;
     margin-bottom: 8px;
 }
 
@@ -171,32 +170,17 @@ header {
    SECTION BACKGROUNDS
 ========================= */
 
-.section-1 {
-    background: #5c725c;
-}
-
-.section-2 {
-    background: #5c725c;
-}
-
-.section-3 {
-    background: #5c725c;
-}
-
-.section-4 {
-    background: #5c725c;
-}
-
-.section-5 {
-    background: #5c725c;
-}
-
-.section-6 {
-    background: #5c725c;
-}
-
+.section-1,
+.section-2,
+.section-3,
+.section-4,
+.section-5,
+.section-6,
 .section-7 {
-    background: #5c725c;
+    background-image: url("images/background-image.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 /* =========================
@@ -280,13 +264,13 @@ header {
         min-height: auto;
         padding: 10px 12px;
 
-        border-bottom: 6px solid #F5EEE2;
+     
     }
 
 }
 
     .tea-number {
-        font-size: 12px;
+        font-size: 18px;
         letter-spacing: 2px;
         
     

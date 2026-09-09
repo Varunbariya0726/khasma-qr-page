@@ -580,22 +580,22 @@ position: relative;
 
     .left-1,
     .right-1 {
-        width: 120px;
+        width: 90px;
     }
 
     .left-2,
     .right-2 {
-        width: 120px;
+        width: 90px;
     }
 
     .left-3,
     .right-3 {
-        width: 120px;
+        width: 90px;
     }
 
     .left-4,
     .right-4 {
-        width: 120px;
+        width: 90px;
     }
 
 
@@ -746,7 +746,7 @@ position: relative;
 
         100% {
             opacity: 1;
-            transform: translateX(15px) rotate(-45deg);
+            transform: translateX(15px) rotate(-15deg);
         }
     }
 
